@@ -49,8 +49,8 @@ int main( int argc, char *argv[]){
 	else if(norc(argc, argv) < 0)
 		ncmp(fp1, fp2, AB, BA, A_B, B_A, column1, column2);
 
-  fclose(fp1);
-  fclose(fp2);
+        fclose(fp1);
+        fclose(fp2);
 	fclose(AB);
 	fclose(BA);
 	fclose(A_B);
